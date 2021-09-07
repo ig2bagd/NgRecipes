@@ -4,9 +4,8 @@ import { FormsModule } from '@angular/forms';
 
 import { AlertComponent } from './alert/alert.component';
 import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
-import { PlaceholderDirective } from './placeholder.directive';
+import { PlaceholderDirective } from './placeholder/placeholder.directive';
 import { DropdownDirective } from './dropdown.directive';
-
 
 @NgModule({
   imports: [CommonModule],
